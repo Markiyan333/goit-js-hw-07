@@ -29,9 +29,6 @@ function createImageGallery(galleryItems) {
 
 function onGalleryContainerClick(evt) {
     evt.preventDefault();
-    if (evt.target.nodeName !== 'IMG') {
-    return
-    }
 
     }
 new SimpleLightbox('.gallery a', {

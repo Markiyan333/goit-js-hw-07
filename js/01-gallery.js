@@ -38,7 +38,7 @@ function onGalleryContainerClick(evt) {
     const onImageClick = evt.target.getAttribute('data-source')
 
     const instance = basicLightbox.create(`
-<img src"${onImageClick}" width ="800" height ="600">`)
+<img src="${onImageClick}" width ="800" height ="600">`)
 
     instance.show()
     galleryContainer.addEventListener('keydown', evt => {
